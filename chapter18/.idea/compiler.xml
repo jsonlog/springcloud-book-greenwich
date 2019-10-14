@@ -6,33 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="account-service" />
+        <module name="uaa-service" />
         <module name="eureka-server" />
-        <module name="common" />
+        <module name="config-server" />
         <module name="log-service" />
         <module name="gateway-service" />
         <module name="monitor-service" />
-        <module name="uaa-service" />
         <module name="user-service" />
-        <module name="blogs-service" />
-        <module name="config-server" />
+        <module name="common" />
         <module name="admin-service" />
         <module name="blog-service" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="admin-service" target="1.8" />
-      <module name="blog-service" target="1.8" />
-      <module name="chapter18" target="1.8" />
-      <module name="common" target="1.8" />
-      <module name="config-server" target="1.8" />
-      <module name="eureka-server" target="1.8" />
-      <module name="gateway-service" target="1.8" />
-      <module name="log-service" target="1.8" />
-      <module name="monitor-service" target="1.8" />
-      <module name="uaa-service" target="1.8" />
-      <module name="user-service" target="1.8" />
-    </bytecodeTargetLevel>
+    <bytecodeTargetLevel target="8" />
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">

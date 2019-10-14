@@ -39,6 +39,7 @@ zuul:
 #  routes:
 #    hiapi:
 #      path: /hiapi/**
+#      url: http://localhost:8762
 
 #ribbon:
 # eureka:
